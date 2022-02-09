@@ -15,10 +15,10 @@
   position: absolute;
   right: 60%;
   bottom: 5%;
-  -webkit-transform: scale(50%) rotate(5deg);
-  -webkit-animation: large-balloon-pink 3s ease-in-out infinite alternate;
   transform: scale(50%) rotate(5deg);
+  -webkit-transform: scale(50%) rotate(5deg);
   animation: large-balloon-pink 3s ease-in-out infinite alternate;
+  -webkit-animation: large-balloon-pink 3s ease-in-out infinite alternate;
   opacity: 0.8;
 }
 @-webkit-keyframes large-balloon-pink {
