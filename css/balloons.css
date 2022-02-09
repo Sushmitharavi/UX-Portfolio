@@ -18,7 +18,7 @@
   transform: scale(50%) rotate(5deg);
   -webkit-transform: scale(50%) rotate(5deg);
   animation: large-balloon-pink 3s ease-in-out infinite alternate;
-  -webkit-animation: large-balloon-pink 3s ease-in-out infinite alternate;
+  -webkit-animation: large-balloon-pink 3s ease-in-out 0.01 infinite alternate;
   opacity: 0.8;
 }
 @-webkit-keyframes large-balloon-pink {
