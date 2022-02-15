@@ -20,8 +20,8 @@ body {
   --footer-color: #87c39f;
 
   /* font */
-  --primary-font: "Raleway", sans-serif;
-  --secondary-font: "Merriweather", serif;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
   --icon-font: "UnifrakturCook", cursive;
 }
 
