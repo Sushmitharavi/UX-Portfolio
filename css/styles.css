@@ -189,11 +189,11 @@ footer > h2 {
 
 /* break */
 .section-break {
-  width: 50%;
+  width: 35%;
   margin: 0 auto;
   border: none;
   padding: 3rem 0;
-  border-bottom: 4px dotted var(--font-color-nav-item);
+  border-bottom: 2px dotted var(--font-color-nav-item);
 }
 
 /* section work */
@@ -275,6 +275,18 @@ footer > h2 {
   border-radius: 5px;
   background-color: #cde9e0;
 }
+.work--container > .content .link-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  text-decoration: none;
+  color: unset;
+  padding: 1rem;
+  border-radius: 5px;
+    background-color: #cde9e0;
+
+}
+
 
 /* work - colors */
 .convos {
@@ -349,9 +361,10 @@ footer > h2 {
 }
 .about--container > .content > h3:first-child {
   margin-top: 0;
+  margin-bottom: 0;
 }
 .about--container > .content > :not(h3:first-child) + h3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .content > .quote-sentence {
   font-style: italic;
