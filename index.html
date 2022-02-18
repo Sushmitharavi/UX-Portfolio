@@ -7,12 +7,9 @@
   <!-- https://fonts.google.com-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <!-- For the icons -->
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <!-- Custom styling -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/balloons.css">
@@ -22,9 +19,10 @@
 <!-- https://xd.adobe.com/view/ad4829e6-9b8d-4b4f-b880-65626e8166d9-f81b/screen/519d1cb9-1cad-431a-b420-52609c6a9938/ -->
 
 <body>
-
-  <!-- Scroll Top -->
-  <button onclick="scrollToTop();" id="scrollTop"><i class="las la-arrow-up"></i></button>
+  <!-- Scroll Top Button-->
+  <button onclick="scrollToTop();" id="scrollTop">
+    <i class="las la-arrow-up"></i>
+  </button>
 
   <!-- Navbar -->
   <nav class="navbar--wrapper">
@@ -45,11 +43,10 @@
       <p class="no-margin name">I'm Sushmitha,</p>
       <p class="no-margin pronunciation">[Soosh - me - tuh]</p>
       <p class="no-margin profession">
-        a <b>UX/UI Designer</b> and <b>Illustrator</b> specializing in user driven design thinking
-        approach to create transformative experiences in any screen size. </p>
-      <p class="no-margin profession"><b>Say hello</b> before I float away!</p>
-      <a class="contact-me"
-        href="mailto:sushmitharavi64@gmail.com?subject=Contact%20for%20UI/UX%20Designer&body=Dear Sushmitha,">Email
+        a <b>UX/UI Designer</b> and <b>Illustrator</b> specializing in user driven <b>design thinking </b>
+        approach to create <b>transformative experiences</b> in any screen size.</p>
+      <p class="no-margin profession">Say hello before I float away!</p>
+      <a class="contact-me" href="mailto:sushmitharavi64@gmail.com?subject=Contact%20for%20UI/UX%20Designer&body=Dear Sushmitha,">Email
         me</a>
       <p class="select-email">
         Email ID: <em>sushmitharavi64@gmail.com</em>
@@ -67,7 +64,6 @@
     </div>
   </section>
 
-
   <div class="section-break"></div>
 
   <!-- Works -->
@@ -75,59 +71,63 @@
 
     <h2>Work</h2>
 
-    <!-- Convos -->
-    <div class="work--container">
-      <div class="preview-image convos">
-        <img class="convos" src="img/preview-convos.jpg" alt="" width="100%">
+    <div class="work--wrapper">
+      <!-- Convos -->
+      <div class="work--container">
+        <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/126746389/Convos-Language-learning-app">
+          <img class="preview-image" src="img/preview-convos.jpg" alt="" width="100%">
+          <div class="content">
+            <p class="title">Convos</p>
+            <p class="tags">UX/UI Design, Education</p>
+            <p class="description">A fun study partner to learn a new language</p>
+          </div>
+        </a>
       </div>
-      <div class="content convos">
-        <h3 class="title">Convos app</h3>
-        <p class="description">The perfect study partner when learning a new language.</p>
-        <a target="_blank" rel="noopener noreferrer"
-          href="https://www.behance.net/gallery/126746389/Convos-Language-learning-app" class="link">Full case
-          study</a>
 
+      <!-- Penny -->
+      <div class="work--container">
+        <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/126040389/Penny-Tracking-and-budgeting-finances">
+          <img class="preview-image" src="img/preview-penny.jpg" alt="" width="100%">
+          <div class="content">
+            <p class="title">Penny app</p>
+            <p class="tags">UX/UI Design, UX research, Fintech</p>
+            <p class="description">Cultivate mindfullness in personal finance management</p>
+          </div>
+        </a>
       </div>
+
+      <!-- Online portfolio - How i designed the web-site -->
+      <div class="work--container">
+        <!-- target="_blank" opens the link in new tab -->
+        <!-- noopener, noreferrer = hides the source URL, sets window.opener to undefined-->
+        <a class="link" target="_blank" rel="noopener noreferrer" href="https://www.behance.net/gallery/137697239/How-I-built-my-Online-portfolio-as-a-UXUI-Designer">
+          <img class="preview-image" src="img/preview-website.jpg" alt="" width="100%">
+          <div class="content">
+            <p class="title">Online Portfolio</p>
+            <p class="tags">UX/UI Design, Front end development, Personal project</p>
+            <p class="description">A detailed walk through of how I designed and developed a responsive website from
+              scratch.</p>
+          </div>
+        </a>
+      </div>
+      <div class="work--container">
+        <a class="link" target="_blank" rel="noopener noreferrer" href="#">
+          <img class="preview-image" src="img/preview-comingsoon.jpg" alt="" width="100%">
+          <div class="content">
+            <p class="title">Website redesign</p>
+            <p class="tags">UX/UI Design, UX Audit, NGO</p>
+            <p class="description">A redesign of a Animal shelter website</p>
+          </div>
+        </a>
+      </div>
+
+
     </div>
-
-    <!-- Penny -->
-    <div class="work--container">
-      <div class="preview-image penny">
-        <img class="penny" src="img/preview-penny.jpg" alt="" width="100%">
-      </div>
-      <div class="content penny">
-        <h3 class="title">Penny app</h3>
-        <p class="description">Saving money and setting budgets has never been easier.</p>
-        <a target="_blank" rel="noopener noreferrer"
-          href="https://www.behance.net/gallery/126040389/Penny-Tracking-and-budgeting-finances" class="link">Full case
-          study</a>
-          <a target="_blank" rel="noopener noreferrer"
-            href="https://xd.adobe.com/view/be2349fa-fde0-447b-899a-6d2ec6758c91-eb70/?fullscreen" class="link-2">Prototype
-    </a>
-      </div>
-    </div>
-
-    <!-- Coming Soon - How i designed the web-site -->
-    <div class="work--container">
-      <div class="preview-image website">
-        <!-- <img class="penny" src="img/preview-penny.jpg" alt="" width="100%"> -->
-        <span class="placeholder">Coming soon</span>
-      </div>
-      <div class="content website">
-        <h3 class="title">How I built this website</h3>
-        <p class="description">A detailed walk through of how I designed and developed a responsive website from
-          scratch.</p>
-        <a target="_blank" rel="noopener noreferrer" href="#" class="link">Full case
-          study</a>
-      </div>
-    </div>
-
   </section>
 
   <div class="section-break"></div>
 
   <!-- About -->
-
   <section id="about">
 
     <h2>About</h2>
@@ -171,10 +171,7 @@
       </div>
     </div>
 
-
-
   </section>
-
 
   <!-- Footer -->
   <footer>
@@ -189,19 +186,16 @@
           <p>Email ID: <em>sushmitharavi64@gmail.com</em></p>
         </div>
         <div class="actions">
-          <a href="mailto:sushmitharavi64@gmail.com?subject=Contact%20for%20UI/UX%20Designer&body=Dear Sushmitha,"
-            class="link">Email me</a>
-          <a target="_blank" rel="noopener noreferrer" href="Resume v2.pdf" class="link">Checkout my Resume</a>
+          <a href="mailto:sushmitharavi64@gmail.com?subject=Contact%20for%20UI/UX%20Designer&body=Dear Sushmitha," class="link">Email me</a>
+          <a target="_blank" rel="noopener noreferrer" href="cv.pdf" class="link">Checkout my Resume</a>
         </div>
 
       </div>
 
       <div class="links--container">
         <div class="contact-links">
-          <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.behance.net/sushmitharavi"><i
-              class="lab la-behance"></i> Behance</a>
-          <a target="_blank" rel="noopener noreferrer" class="link"
-            href="https://www.linkedin.com/in/sushmitha-ravi-maluvadu/"><i class="lab la-linkedin-in"></i>
+          <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.behance.net/sushmitharavi"><i class="lab la-behance"></i> Behance</a>
+          <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.linkedin.com/in/sushmitha-ravi-maluvadu/"><i class="lab la-linkedin-in"></i>
             LinkedIn</a>
         </div>
         <span class="footnote">Designed and Developed by Sushmitha Ravi</span>
